@@ -1,27 +1,52 @@
 id: ID77DBA07
+legacy_id: P008193
+ocr_import_info:
+  bdrc_scan_id: W1CZ1034
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-28T16:05:25'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-28T16:11:46+00:00'
-last_modified: '2022-06-09T05:08:51.633831+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-30T18:44:06.711168+00:00'
+last_modified: 2022-08-31 02:45:30.937004
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1CZ1034
-  title: འགྲོ་མགོན་འཕགས་པ་བློ་གྲོས་རྒྱལ་མཚན་གྱི་གསུང་འབུམ་པོད་གསུམ་པ
-  author: ''
+  id: http://purl.bdrc.io/resource/W1CZ1034
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    F96A:
-      image_group_id: I1CZ2141
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW1CZ1034
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: འགྲོ་མགོན་འཕགས་པ་བློ་གྲོས་རྒྱལ་མཚན་གྱི་གསུང་འབུམ་པོད་གསུམ་པ།
+  author: འགྲོ་མགོན་ཆོས་རྒྱལ་འཕགས་པ།
+statistics:
+  ocr_word_mean_confidence_index: 0.4927366971690369
+  ocr_word_median_confidence_index: 0.4399999976158142
+quality: null
+bases:
+  I1CZ2141:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ2141
       total_pages: 1016
-      order: 1
-      base_file: F96A.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1CZ2141.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.4399999976158142
+      ocr_word_mean_confidence_index: 0.4927366971690369
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
